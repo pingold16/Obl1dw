@@ -1,0 +1,14 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-size: 18px;
+}
+
+body{
+    text-align: center;
+}
+
+li{
+    display: inline;
+    margin: 10px 25px auto;
+}
