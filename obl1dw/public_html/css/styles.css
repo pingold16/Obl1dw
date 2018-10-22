@@ -11,4 +11,9 @@ body{
 li{
     display: inline;
     margin: 10px 25px auto;
+    background-color: white;
+}
+
+#cabecera {
+    background-color: black;
 }
