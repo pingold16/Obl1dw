@@ -50,7 +50,7 @@ nav a {
     height: auto;
     width: 100%;
     max-height: 600px;
-    overflow: hidden;
+    overflow: auto;
     background-position: center;
     background-repeat: no-repeat;
     background-size: auto;
@@ -62,12 +62,51 @@ img{
 }
 
 .divisor{
-    height: 50px;
+    height: auto;
+    min-height: 50px;
     width: 100%;
+    padding: 10px;
     background-color: black;
     color: #31afd4;
 }
 
-.extracto p{
-    float: right;
+.extracto{
+    width: 100%;
+}
+.imgdisco::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.imgdisco{
+    float: left;
+    padding: 15px;
+    width: 30%;
+    min-width: 50px;
+    max-height: 500px;
+}
+
+.descripcion{
+    float: left;
+    padding: 15px;
+    width: 30%;
+    max-width: 250px;
+    padding-top: 150px;
+}
+
+.lista div{
+    float: left;
+    padding-top: 150px;
+    margin-left: 100px;
+    width: 30%;
+}
+
+footer{
+    background-color: black;
+    clear: both;
+    position: relative;
+    z-index: 10;
+    height: 3em;
+    margin-top: -3em;
 }
