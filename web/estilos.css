@@ -61,6 +61,21 @@ nav a:hover{
     position: relative;
 }
 
+.banner{
+    position: relative;
+    text-align: center;
+    color: #ff007f;
+    font-family: 'Rock Salt', cursive;
+    font-size: 4em;
+}
+
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 img{
     margin: 10px 0px;
 }
@@ -72,16 +87,29 @@ img{
 
 .fila figure{
     display: inline-block;
-    vertical-align: super;
+    vertical-align: top;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ff007f;
 }
 
 .divisor{
     height: auto;
     min-height: 50px;
     width: 100%;
-    padding: 10px;
+    padding: 10px 0;
     background-color: black;
     color: #31afd4;
+}
+
+section, .divisor{
+  display: flex;
+  justify-content: center;
+}
+
+.divisor p{
+    max-width: 500px;
+    margin-left: 50px;
 }
 
 .super{
