@@ -21,8 +21,8 @@ nav{
     overflow: hidden;
     background-color: black;
     color: #31afd4;
-    height: 50px;
-    padding-top: 25px;
+    height: auto;
+    padding: 3em;
 }
 nav h1{
     display: inline-block;
@@ -44,6 +44,10 @@ input{
 nav a {
     color: white;
     text-decoration: none;
+}
+
+nav a:hover{
+    color: #ff007f;
 }
 
 .banner img{
@@ -68,6 +72,13 @@ img{
     padding: 10px;
     background-color: black;
     color: #31afd4;
+}
+
+.super{
+    color: #ff007f;
+    size: 2em;
+    text-decoration: underline;
+    margin-bottom: 15px;
 }
 
 .extracto{

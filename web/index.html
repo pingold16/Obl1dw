@@ -8,6 +8,7 @@
     <meta name="description" content="Obligatorio Diseño de interfaz">
     <meta name="author" content="Gonzalo Guimaraens, Pablo Ingold">
     <!--link css y titulo-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Krub|Ubuntu" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="estilos.css">
     <title>Página principal</title>
@@ -20,7 +21,7 @@
             <li><a href="#">link 1</a></li>
             <li><a href="#">link 2</a></li>
             <li><a href="#">link 3</a></li>
-            <li><input type="text" id="txtBuscar"></li>
+            <li><input type="text" id="txtBuscar" placeholder="   Busqueda"></li>
         </ul>
     </nav>
     <!--banner-->
@@ -28,6 +29,7 @@
         <figure>
             <img src="./img/topbanner.jpg" alt="Michael bailando frente a micrófono">
         </figure>
+        <!-- primer divisor -->
         <div class="divisor"></div>
     </article>
     <!--galeria-->
@@ -70,42 +72,49 @@
                 <figcaption></figcaption>
             </figure>
         </section>
-        <div class="divisor"><h2>Michael Joseph Jackson (29/8/1958 -25/6/2009)</h2>​<p>  Fue un cantante, compositor, productor discográfico, bailarín, actor y filántropo estadounidense. Conocido como el <em>«Rey del Pop»</em>,5​ sus contribuciones y reconocimiento en la historia de la música y el baile, así como su publicitada vida personal, lo convirtieron en una figura internacional en la cultura popular durante más de cuatro décadas. Es reconocido como la estrella de música pop más exitosa en el mundo. Sin embargo, su música incluyó una amplia acepción de subgéneros como el rhythm and blues (soul y funk), rock, disco y dance.</p></div>
+        <!-- segundo divisor -->
+        <div class="divisor">
+            <h2>Michael Joseph Jackson (29/8/1958 -25/6/2009)</h2>
+            ​<p>Fue un cantante, compositor, productor discográfico, bailarín, actor y filántropo estadounidense. Conocido como el <em>«Rey del Pop»</em>.</p>
+        </div>
     </article>
     <!-- extracto -->
     <article class="extracto">
+        <!-- imagen -->
         <section class="imgdisco">
             <figure>
                 <img src="img/michaelparado.png" alt="Michael Jackson cantando">
                 <figcaption></figcaption>
             </figure>
-        </section>    
+        </section>
+        <!-- descripcion -->    
         <section class="descripcion">
-            <h3>Lorem</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, ad quis? Laudantium quisquam, ex distinctio magnam eveniet accusamus, quod aliquid qui minus officia hic dolore explicabo blanditiis nesciunt animi dolorem.</p>
+            <h3 class="super">Got to Be There</h3>
+            <p>Es el primer álbum de estudio como solista con el que Michael Jackson debutó en 1972, lanzado por la compañía discográfica Motown Records, teniendo tan sólo 13 años. Alcanzó un éxito de ventas a ambos lados del Atlántico, como su siguiente disco Ben. El género del álbum es Bubblegum pop y soul y alcanzó el top 14 de los más vendidos en los Estados Unidos de la música pop. La canción que da título al disco es una balada, y su primer sencillo en solitario que llegó al número 4 de los Charts de los Billboard Hot 100.</p>
          </section>
+         <!-- lista -->
          <section  class="lista">
              <div>
-                 <h3>Lista de temas</h3>
+                 <h3 class="super">Lista de temas</h3>
                  <ol>
-                     <li>a</li>
-                     <li>b</li>
-                     <li>c</li>
-                     <li>d</li>
-                     <li>e</li>
-                     <li>f</li>
-                     <li>g</li>
-                     <li>h</li>
-                     <li>i</li>
-                     <li>j</li>
+                     <li>Ain't No Sunshine</li>
+                     <li>I Wanna Be Where You Are</li>
+                     <li>Girl Don't Take Your Love from Me</li>
+                     <li>In Our Small Way</li>
+                     <li>Got to Be There</li>
+                     <li>Rockin' Robin</li>
+                     <li>Wings of My Love</li>
+                     <li>Maria (You Were the Only One)</li>
+                     <li>Love Is Here and Now You're Gone</li>
+                     <li>You've Got a Friend</li>
                 </ol>
             </div>
          </section>
     </article>
     <!-- footer -->
     <footer>
-        <p>texto</p>
-        <p>iconos</p>
+        <span id="copy">Copyright © 2018 ORT CodeWorks. Todos los derechos reservados.</span>
+        <span id="iconos"><i class="fab fa-facebook-square"></i><i class="fab fa-twitter-square"></i><i class="fas fa-share-square"></i></span>
     </footer>
 </body>
 </html>
