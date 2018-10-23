@@ -65,6 +65,16 @@ img{
     margin: 10px 0px;
 }
 
+.fila figure img, .fila figure{
+    width: 200px;
+    top: 0;
+}
+
+.fila figure{
+    display: inline-block;
+    vertical-align: super;
+}
+
 .divisor{
     height: auto;
     min-height: 50px;
