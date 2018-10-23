@@ -1,27 +1,110 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <!--meta tags-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Obligatorio Diseño de interfaz">
     <meta name="author" content="Gonzalo Guimaraens, Pablo Ingold">
-    <link rel="stylesheet" href="estilos.css">
+    <!--link css y titulo-->
+    <link href="https://fonts.googleapis.com/css?family=Krub|Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
     <title>Página principal</title>
 </head>
 <body>
+    <!--navegacion-->
     <nav>
         <ul>
-            <li>Titulo</li>
+            <li><h1>Tributo a Michael Jackson</h1></li>
             <li><a href="#">link 1</a></li>
             <li><a href="#">link 2</a></li>
             <li><a href="#">link 3</a></li>
             <li><input type="text" id="txtBuscar"></li>
         </ul>
     </nav>
-
-    <figure>
-        <img src="./img/topbanner.jpg" width="100%" height="700px">
-    </figure>
+    <!--banner-->
+    <article class="banner">
+        <figure>
+            <img src="./img/topbanner.jpg" alt="Michael bailando frente a micrófono">
+        </figure>
+        <div class="divisor"></div>
+    </article>
+    <!--galeria-->
+    <article class="galeria">
+        <!--primera fila-->
+        <section class="fila">
+            <figure>
+                <img src="" alt="">
+                <figcaption></figcaption>
+            </figure>
+            <figure>
+                <img src="" alt="">
+                <figcaption></figcaption>
+            </figure>
+            <figure>
+                <img src="" alt="">
+                <figcaption></figcaption>
+            </figure>
+            <figure>
+                <img src="" alt="">
+                <figcaption></figcaption>
+            </figure>
+        </section>
+        <!--segunda fila-->
+        <section class="fila">
+            <figure>
+                <img src="" alt="">
+                <figcaption></figcaption>
+            </figure>
+            <figure>
+                <img src="" alt="">
+                <figcaption></figcaption>
+            </figure>
+            <figure>
+                <img src="" alt="">
+                <figcaption></figcaption>
+            </figure>
+            <figure>
+                <img src="" alt="">
+                <figcaption></figcaption>
+            </figure>
+        </section>
+        <div class="divisor">texto loco</div>
+    </article>
+    <!-- extracto -->
+    <article class="extracto">
+        <section >
+            <figure>
+                <img src="img/michaelparado.png" alt="Michael Jackson cantando">
+                <figcaption></figcaption>
+            </figure>
+        </section>    
+        <section>
+            <h3>Lorem</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, ad quis? Laudantium quisquam, ex distinctio magnam eveniet accusamus, quod aliquid qui minus officia hic dolore explicabo blanditiis nesciunt animi dolorem.</p>
+         </section>
+         <section>
+             <div class="lista">
+                 <ol>
+                     <li>a</li>
+                     <li>b</li>
+                     <li>c</li>
+                     <li>d</li>
+                     <li>e</li>
+                     <li>f</li>
+                     <li>g</li>
+                     <li>h</li>
+                     <li>i</li>
+                     <li>j</li>
+                </ol>
+            </div>
+         </section>
+    </article>
+    <!-- footer -->
+    <footer>
+        <p>texto</p>
+        <p>iconos</p>
+    </footer>
 </body>
 </html>
