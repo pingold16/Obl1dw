@@ -184,6 +184,7 @@ i{
 
 li{
     list-style-position: inside;
+    padding: 3px;
 }
 
 /* pagina disco*/
@@ -218,6 +219,10 @@ li{
 .border{
     border: 1px solid #902d41;
     padding: 5px;
+}
+
+ul{
+    list-style-image: url('img/disco.png');
 }
 
 .varios2{
