@@ -181,3 +181,45 @@ i{
     font-size: 2em;
     color: #cccccc;
 }
+
+li{
+    list-style-position: inside;
+}
+
+/* pagina disco*/
+
+.wrapper{
+    max-width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.inferior .fila{
+    margin: 50px;
+}
+
+.varios1 img{
+    width: 300px;
+    height: 300px;
+}
+
+.name{
+    color: #ff007f;
+    font-size: 30px;
+}
+
+.marco{
+    margin-top: 15px;
+    border-top: 1px solid #902d41;
+    border-bottom: 1px solid #902d41;
+    padding: 15px;
+}
+
+.border{
+    border: 1px solid #902d41;
+    padding: 5px;
+}
+
+.varios2{
+    margin: 50px;
+}
