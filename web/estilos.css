@@ -13,6 +13,7 @@
 body{
     font-family: 'Ubuntu', sans-serif;
     color: #004fff;
+    background-color: #31afd4;
 }
 
 nav{
@@ -50,15 +51,28 @@ nav a:hover{
     color: #ff007f;
 }
 
-.banner img{
-    height: auto;
-    width: 100%;
-    max-height: 600px;
-    overflow: auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: auto;
+.banner{
     position: relative;
+    text-align: center;
+    width: 100%;
+    color: #ff007f;
+    font-family: 'Rock Salt', cursive;
+    font-size: 4em;
+}
+
+.banner img{
+    margin-top: 0;
+    display: inline-block;
+    vertical-align: middle;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 img{
@@ -72,20 +86,34 @@ img{
 
 .fila figure{
     display: inline-block;
-    vertical-align: super;
+    vertical-align: top;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #050505;
+    background-color: #31afd4;
 }
 
 .divisor{
     height: auto;
     min-height: 50px;
     width: 100%;
-    padding: 10px;
+    padding: 10px 0;
     background-color: black;
     color: #31afd4;
 }
 
+section, .divisor{
+  display: flex;
+  justify-content: center;
+}
+
+.divisor p{
+    max-width: 500px;
+    margin-left: 50px;
+}
+
 .super{
-    color: #ff007f;
+    color: #902d41;
     size: 2em;
     text-decoration: underline;
     margin-bottom: 15px;
@@ -124,10 +152,27 @@ img{
 }
 
 footer{
+    padding: 1em;
     background-color: black;
     clear: both;
     position: relative;
     z-index: 10;
     height: 3em;
     margin-top: -3em;
+    text-align: center;
+}
+
+#copy{
+    float: left;
+    margin-left: 10%;
+}
+
+#iconos{
+    float: right;
+    margin-right: 10%;
+}
+
+i{
+    margin: 0 5px;
+    font-size: 2em;
 }
