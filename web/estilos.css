@@ -1,3 +1,5 @@
+
+/*estilos generales de la pagina*/
 * {
     vertical-align: baseline;
     font-weight: inherit;
@@ -93,6 +95,8 @@ img{
     color: #ced5e0;
 }
 
+/*estilos pagina de inicio*/
+
 .divisor{
     height: auto;
     min-height: 50px;
@@ -114,7 +118,7 @@ section, .divisor{
 
 .super{
     color: #902d41;
-    size: 2em;
+    font-size: 2em;
     text-decoration: underline;
     margin-bottom: 15px;
 }
@@ -216,9 +220,18 @@ li{
     padding: 15px;
 }
 
+.derecha ul{
+    margin-top: 15px;
+}
+
+.fila div h3{
+    text-align: center;
+}
+
 .border{
     border: 1px solid #902d41;
     padding: 5px;
+    margin: 5px;
 }
 
 ul{
